@@ -1,0 +1,401 @@
+body  {
+background: #004B4B ;  
+margin: 0;
+padding: 0;
+}
+
+#container { 
+width: 1100px;
+margin: auto;
+background: #FFFFFF;
+}
+
+header { 
+  width: 100%;
+  height: 250px;
+  /*background-position: center;
+  background-repeat: no-repeat;*/
+  /*text-align: left;*/
+  position: relative;
+  background:#3b7687;
+  /*background:#FFFFFF;*/
+  /*border: dashed red;*/
+}
+
+header #header-top a {
+  width: 1090px;
+  height: 40px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background: #876c3b;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Arial"; 
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 5px 5px #134958;
+  -moz-box-shadow: 0px 5px 5px #134958;
+  -webkit-box-shadow: 0px 5px 5px #134958;
+  text-shadow: 4px 3px 3px #4D350A;
+  /*border: dotted black;*/
+}
+
+/*#header-middle {
+  width: 100%;
+  height: 108px;
+  padding-top: 10px;
+  background: #3b7687;
+  font-size: 40px;
+  font-family: "Arial"; 
+  color: #FFFFFF;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  /*border: solid black;
+  }*/
+
+#header-bottom {
+  width: 1090px;
+  height: 40px;
+  padding-top: 3px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  background: #876c3b;
+  text-align: right;
+  font-size: 40px;
+  font-family: "Arial"; 
+  color: #FFFFFF;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  box-shadow: 0px -5px 5px #134958;
+  -moz-box-shadow: 0px -5px 5px #134958;
+  -webkit-box-shadow: 0px -5px 5px #134958;
+  text-shadow: 4px 3px 3px #4D350A;
+  /*border: dotted black;*/
+}
+
+/*header p {
+  background: #876c3b;
+  font-size: 35px;
+  color: #FFFFFF; 
+  border: solid black;
+}*/
+
+header a {
+color: #c5d6db;
+text-decoration: none;
+font-size: 25px; 
+font-family: "Myriad Pro", "Arial Narrow";
+text-shadow: 4px 3px 3px #134958;
+}
+
+header ul {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 64px;
+	left: 11px;
+	/*border: dotted red;*/
+}
+
+header ul li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size:5px;
+}
+header ul li ~ li {
+	position: relative;
+	left: 434px;
+	top: -28px;    
+}
+
+
+
+/*#header.new ul li:nth-child(4),#header.new ul li:last-child{left:-100px};*/
+
+/*div#nav a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	line-height: 17px;
+	margin: 0px 0px 0px 0px;
+	padding: 3px 0px 2px 3px;
+    display: block;
+    background-color: transparent;*/
+
+img.bride {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: -4px 0px 5px #134958;
+  -moz-box-shadow: -4px 0px 5px #134958;
+  -webkit-box-shadow: -4px 0px 5px #134958;
+}
+
+img.seats {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 7px 0px 5px #134958;
+  -moz-box-shadow: 7px 0px 5px #134958;
+  -webkit-box-shadow: 7px 0px 5px #134958;
+}
+
+img.table {
+  display: block;
+  position: absolute;
+  top: 68px;
+  left: 680px;
+  box-shadow: 7px 2px 5px #134958;
+  -moz-box-shadow: 7px 2px 5px #134958;
+  -webkit-box-shadow: 7px 2px 5px #134958;
+}
+
+nav {
+background-color: #3b7687; 
+padding: 0px 0px 0px 0px;
+position: relative;
+width: 100%;
+height: 32px;
+top: 0px;
+/*border: black 2px solid;*/
+}
+
+nav a {
+color: #c5d6db;
+text-decoration: none; 
+font-size: 14px; 
+font-family: "Arial Narrow", "Myriad Pro";
+}
+
+nav a:hover {
+color: #ecf2f3;
+}
+
+nav ul {
+	padding: 0px;
+	position: absolute;
+	top: -10px;
+	left: 25px;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	display: inline;
+}
+
+#sidebar {
+float: left;
+width: 120px;
+padding: 30px 0 0 40px;
+margin: 0;
+color: #3b7687;
+/*font-family: "Myriad Pro", "Arial Narrow";*/
+}
+
+#sidebar h2 {
+color: #3b7687;
+font-size: 15px;
+font-family: "Myriad Pro";
+}
+
+/*#sidebarForm {
+float: left;
+width: 160px;
+padding: 0;
+padding-top: 30px;
+margin: 0;
+overflow: hidden;
+}*/
+
+/*h1 {
+margin: 0px;
+color: #006b6b; 
+font-size:24px; 
+font-family: "Arial Narrow", "Myriad Pro"; 
+font-weight: normal;
+}*/
+
+h2 {
+	color: #3b7687;
+	font-size: 15px; 
+	margin: 0px 0 1.0em 0;
+}
+
+p {
+	margin: 0px 0 1.5em 0;
+}
+
+#main { 
+	margin: 0 0 0 180px;
+	padding: 35px 40px 30px 0px;
+	color: #444444;
+	font-family: "Georgia", serif;
+	font-size: 13px; 
+	line-height: 18px;
+} 
+
+#main a {
+color: #3b7687; 
+text-decoration: none;
+}
+
+#main a:hover {
+	color: #444444;
+}
+
+#main h2 {
+color: #3b7687;
+font-size: 15px;
+}
+
+/* Forces blocks to enclose their floated children */
+  .clearfix:after { /* This can be replaced by the alternative fix below if it doesn't kill CatFish */
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  /* This alternative fix works fine, but it's disabled to troubleshoot CatFish */
+  /*.clearfix {
+    overflow: hidden;
+  }*/
+
+  /* Don't know why we'd need this rule, but it was here when CatFish worked */
+  .clearfix {
+    display:block;
+	position:relative
+  }
+
+  * html .clearfix { /* This should be moved to ie.css, as IE7 doesn't support * html */
+    height: 1%;
+  }
+  /* END: Forces blocks to enclose their floated children */
+
+#mainForm {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  width: 620px;
+  float: left;
+  color: #444444;
+  font-family: "Georgia";
+  font-size: 13px; 
+  line-height: 18px;
+  text-align: justify;
+  background-color: #ECF1EF;
+}
+
+#mainForm a {
+color: #3b7687; 
+text-decoration: none;
+}
+
+#mainForm a:hover {
+color: #444444;
+}
+
+.pull-left {
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+.pull-right {
+	float: right;
+	margin-left: 16px;
+	margin-bottom: 16px;	
+}
+
+footer {
+	width: 100%;
+	padding: 0px 0px 10px 0px;
+	background: #d6d6d6; 
+	font-family: "Lucida Sans Unicode";
+	color: #444444;
+	font-size: 11px;
+	text-align: right;
+	position: relative;
+	overflow: visible;
+}
+
+footer p {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+footer p.copyright {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer ul {
+	margin: 0px;
+	padding: 16px 0px 0px 0px;
+	text-align: center;
+}
+
+footer ul li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	display: inline;
+}
+
+footer a {
+text-decoration: none; 
+color: #262626;
+}
+
+footer a:hover {
+color: #666666;
+}
+
+.separator {
+font-size:11px;
+color:#FFFFFF;
+}
+
+.formline {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 520px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.formline p {
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  width: 145px;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+}
+
+.formline .text {
+  margin: 0;
+  padding: 0;
+}
+
+.formline .btn {
+  margin-right: 40px;
+  float: right;
+}
